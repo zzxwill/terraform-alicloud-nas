@@ -16,7 +16,6 @@ variable "access_group_description" {
 variable "access_group_type" {
   description = "The type of nas access group."
   type        = string
-  default     = "Vpc"
 }
 
 variable "access_group_name" {
